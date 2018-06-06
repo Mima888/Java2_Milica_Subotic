@@ -1,10 +1,13 @@
 package student;
 
+import course.Course;
+
 public class Student {
 
     private String firstName;
     private String lastName;
     private int yearOfBirth;
+    private Course course;
 
     public Student(String firstName, String lastName, int yearOfBirth) {
         
@@ -42,6 +45,10 @@ public class Student {
 
     public void setYearOfBirth(int yearOfBirth) {
         this.yearOfBirth = yearOfBirth;
+    }
+    
+    public Course getCourse() {
+        return this.course;
     }
 
 }

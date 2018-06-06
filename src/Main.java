@@ -21,6 +21,8 @@ public class Main {
          Computer Laptop = new Computer(2.4, 16, 500);
          Laptop.showData();
          System.out.println("");
+         
+         Milica.getCourse();
     }
     
 }
