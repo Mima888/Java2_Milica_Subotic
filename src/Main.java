@@ -1,4 +1,5 @@
 
+import computer.Computer;
 import course.Course;
 import student.Student;
 
@@ -15,6 +16,11 @@ public class Main {
          QA.setName("Quality Assurance");
          QA.setNumberOfClasses(36);
          QA.showData();
+         System.out.println("");
+         
+         Computer Laptop = new Computer(2.4, 16, 500);
+         Laptop.showData();
+         System.out.println("");
     }
     
 }
