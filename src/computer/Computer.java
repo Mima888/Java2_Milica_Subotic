@@ -13,9 +13,9 @@ public class Computer {
         this.hardDrive = hardDrive;
     }
     
-    public Computer() {
-    
-    }
+//    public Computer() {
+//    
+//    }
     
     public void showData() {
         
