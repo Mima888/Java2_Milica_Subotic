@@ -13,6 +13,10 @@ public class Computer {
         this.hardDrive = hardDrive;
     }
     
+    public Computer() {
+    
+    }
+    
     public void showData() {
         
         System.out.println("Process tact is: " + getProcessTact() + " GHz.");
